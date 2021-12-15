@@ -52,14 +52,14 @@ body {
 
 #email {
   border: 3px solid #8D99AE;
-  font-family: 'Chewy', cursive; 
+  font-family: 'Chewy', cursive;
   font-size: 15px;
   margin-right: 10px;
 }
 
 #password {
   border: 3px solid #8D99AE;
-  font-family: 'Chewy', cursive; 
+  font-family: 'Chewy', cursive;
   font-size: 15px;
   margin-right: 10px;
 }
@@ -67,7 +67,7 @@ body {
 #button {
   border: 3px solid #8D99AE;
   font-family: 'Chewy', cursive;
-  font-size: 15px; 
+  font-size: 15px;
   margin-right: 10px;
   padding-left: 20px;
   padding-right: 20px;
@@ -75,6 +75,7 @@ body {
 
 main {
   display: flex;
+  justify-content: space-between;
 }
 
 #evaluation-form {
@@ -89,6 +90,10 @@ main {
   width: 675px;
 }
 
+.title-form {
+  font-size: 30px;
+  text-align: center;
+}
 
 #trybewarts-forms-logo {
   display: flex;
@@ -120,5 +125,13 @@ main {
 
 .box-form {
   display: flex;
-  margin: auto 100px;
+  margin: 50px 30px 30px 100px;
+}
+
+.footer {
+  background-color: rgb(50, 167, 145);
+  color: #EDF2F4;
+  margin-top: 60px;
+  padding: 20px;
+  text-align: center;
 }
