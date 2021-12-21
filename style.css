@@ -64,8 +64,7 @@ body {
   border-radius: 8px;
   font-family: 'Chewy', cursive;
   font-size: 15px;
-  margin-right: 10px;
-  
+  margin-right: 10px;  
 }
 
 #button {
@@ -207,12 +206,33 @@ main {
 
 .rate input {
   font-size: 20px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   margin-left: 40px;
 }
 
+.box-comments {
+  margin-left: 30px;
+  margin-top: 15px;
+}
 
+.comments {
+  margin-bottom: 15px;
+  font-size: 20px;  
+}
 
+#textarea {
+  border: 3px solid #8D99AE;
+  width: 85%;
+  border-radius: 8px;
+  font-family: 'Chewy', cursive;
+  font-size: 15px;
+}
+
+#counter {
+  font-size: 15px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
 
 /* Area que apresentará os dados salvos do fromulario */
 
