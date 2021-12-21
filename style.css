@@ -54,6 +54,7 @@ body {
 
 #email {
   border: 3px solid #8D99AE;
+  border-radius: 8px;
   font-family: 'Chewy', cursive;
   font-size: 15px;
   margin-right: 10px;
@@ -61,13 +62,16 @@ body {
 
 #password {
   border: 3px solid #8D99AE;
+  border-radius: 8px;
   font-family: 'Chewy', cursive;
   font-size: 15px;
   margin-right: 10px;
+  
 }
 
 #button {
   border: 3px solid #8D99AE;
+  border-radius: 8px;
   font-family: 'Chewy', cursive;
   font-size: 15px;
   margin-right: 10px;
@@ -83,14 +87,25 @@ main {
   margin-top: 0;
 }
 
+/* area total que encapsula o formulario e depois os dados salvos */
+
+.box-form {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+  justify-content: center;
+  margin: auto;
+}
+
 /* Area total do formulario */
 
 #evaluation-form {
   display: flex;
   flex-direction: column;
-  width: 675px;
-  padding: 20px;
-  border: 3px solid black;
+  width: 100%;
+  margin-left: 50px;
 }
 
 /* Area interna do formulario */
@@ -98,8 +113,9 @@ main {
 #campos-form {
   display: flex;
   flex-direction: column;
-  width: 675px;
-  border: 3px solid red;
+  width: 90%;
+  margin-left: 50px;
+/*   border: 3px solid red; */
 }
 
 /* Titulo formulario */
@@ -107,7 +123,6 @@ main {
 .title-form {
   font-size: 30px;
   text-align: center;
-  margin-bottom: 30px;
 }
 
 /* Logo ao lado formulario */
@@ -116,7 +131,7 @@ main {
   display: flex;
   align-self: center;
   height: 500px;
-  border: 3px solid blue;
+  margin-right: 150px;
 }
 
 
@@ -124,15 +139,27 @@ main {
 
 .identification {
   margin-bottom: 15px;
-  padding: 0;
-  box-sizing: border-box;
+  padding: 10px ;
+  margin-left: 30px;
 }
 
 .identification input {
-  margin-bottom: 15px;
   border: 3px solid #8D99AE;
+  border-radius: 8px;
   font-family: 'Chewy', cursive;
   font-size: 15px;
+  margin-bottom: 15px;
+  margin-right: 20px;
+  padding: 5px;
+}
+
+#house {
+  border: 3px solid #8D99AE;
+  border-radius: 8px;
+  font-family: 'Chewy', cursive;
+  font-size: 15px;
+  padding: 5px;
+  width: 200px;
 }
 
 /* conteiner familia e conteudo */
@@ -146,8 +173,8 @@ main {
 .box-family {
   display: flex;
   flex-direction: column;
-  width: 35%;
   font-size: 17px;
+  width: 35%;
 }
 
 /* conteiner conteudo */
@@ -165,12 +192,6 @@ main {
   width: 675px;
 }
 
-/* area total que encapsula o formulario e depois os dados salvos */
-
-.box-form {
-  display: flex;
-  margin: 10px 30px 30px 100px;
-}
 
 /* Rodape */
 
