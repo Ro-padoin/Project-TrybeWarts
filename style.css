@@ -19,6 +19,8 @@ body {
   display: none !important;
 }
 
+/* Header */
+
 .header {
   background-color: rgb(50, 167, 145);
   display: flex;
@@ -73,37 +75,73 @@ body {
   padding-right: 20px;
 }
 
+/* Main total */
+
 main {
   display: flex;
   justify-content: space-between;
+  margin-top: 0;
 }
+
+/* Area total do formulario */
 
 #evaluation-form {
   display: flex;
   flex-direction: column;
   width: 675px;
+  padding: 20px;
+  border: 3px solid black;
 }
+
+/* Area interna do formulario */
 
 #campos-form {
   display: flex;
   flex-direction: column;
   width: 675px;
+  border: 3px solid red;
 }
+
+/* Titulo formulario */
 
 .title-form {
   font-size: 30px;
   text-align: center;
+  margin-bottom: 30px;
 }
+
+/* Logo ao lado formulario */
 
 #trybewarts-forms-logo {
   display: flex;
   align-self: center;
   height: 500px;
+  border: 3px solid blue;
 }
+
+
+/* Area identificacao */
+
+.identification {
+  margin-bottom: 15px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.identification input {
+  margin-bottom: 15px;
+  border: 3px solid #8D99AE;
+  font-family: 'Chewy', cursive;
+  font-size: 15px;
+}
+
+/* conteiner familia e conteudo */
 
 .conteiner-family {
   display: flex;
 }
+
+/* conteiner familia */
 
 .box-family {
   display: flex;
@@ -112,6 +150,8 @@ main {
   font-size: 17px;
 }
 
+/* conteiner conteudo */
+
 .box-learn {
   display: flex;
   flex-direction: column;
@@ -119,14 +159,20 @@ main {
   font-size: 17px;
 }
 
+/* Area que apresentará os dados salvos do fromulario */
+
 #box-text-form {
   width: 675px;
 }
 
+/* area total que encapsula o formulario e depois os dados salvos */
+
 .box-form {
   display: flex;
-  margin: 50px 30px 30px 100px;
+  margin: 10px 30px 30px 100px;
 }
+
+/* Rodape */
 
 .footer {
   background-color: rgb(50, 167, 145);
