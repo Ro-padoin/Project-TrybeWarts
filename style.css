@@ -12,7 +12,6 @@ font-family: 'Henny Penny', cursive;*/
 body {
   color: #2B2D42;
   font-family: 'Chewy', cursive;
-  font-size: 21px;
 }
 
 .hidden {
@@ -115,7 +114,6 @@ main {
   flex-direction: column;
   width: 90%;
   margin-left: 50px;
-/*   border: 3px solid red; */
 }
 
 /* Titulo formulario */
@@ -138,8 +136,7 @@ main {
 /* Area identificacao */
 
 .identification {
-  margin-bottom: 15px;
-  padding: 10px ;
+  padding: 5px;
   margin-left: 30px;
 }
 
@@ -164,8 +161,16 @@ main {
 
 /* conteiner familia e conteudo */
 
+#label-family {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
 .conteiner-family {
   display: flex;
+  margin-bottom: 15px;
+  padding: 10px;
+  margin-left: 30px;
 }
 
 /* conteiner familia */
@@ -174,10 +179,16 @@ main {
   display: flex;
   flex-direction: column;
   font-size: 17px;
+  margin-right: 30px;
   width: 35%;
 }
 
 /* conteiner conteudo */
+
+#label-content {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
 
 .box-learn {
   display: flex;
@@ -185,6 +196,23 @@ main {
   width: 65%;
   font-size: 17px;
 }
+
+#label-rate {
+  display: inline-block ;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  margin-left: 30px;
+}
+
+.rate input {
+  font-size: 20px;
+  margin-bottom: 15px;
+  margin-left: 40px;
+}
+
+
+
 
 /* Area que apresentará os dados salvos do fromulario */
 
