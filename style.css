@@ -4,12 +4,13 @@ Paleta de cores:
 - #8D99AE
 - #EDF2F4
 - #EF233C
-- #D90429
+- ##2B2D42
 
 font-family: 'Chewy', cursive; 
 font-family: 'Henny Penny', cursive;*/
 
 body {
+  background-color: #EDF2F4 ;
   color: #2B2D42;
   font-family: 'Chewy', cursive;
 }
@@ -68,8 +69,10 @@ body {
 }
 
 #button {
+  background-color: #2B2D42;
   border: 3px solid #8D99AE;
   border-radius: 8px;
+  color: #EDF2F4;
   font-family: 'Chewy', cursive;
   font-size: 15px;
   margin-right: 10px;
@@ -113,6 +116,7 @@ main {
   flex-direction: column;
   width: 90%;
   margin-left: 50px;
+  padding: 30px;
 }
 
 /* Titulo formulario */
@@ -128,7 +132,8 @@ main {
   display: flex;
   align-self: center;
   height: 500px;
-  margin-right: 150px;
+  margin-right: 100px;
+  padding: 30px;
 }
 
 
@@ -136,7 +141,6 @@ main {
 
 .identification {
   padding: 5px;
-  margin-left: 30px;
 }
 
 .identification input {
@@ -168,8 +172,7 @@ main {
 .conteiner-family {
   display: flex;
   margin-bottom: 15px;
-  padding: 10px;
-  margin-left: 30px;
+  padding: 5px;
 }
 
 /* conteiner familia */
@@ -201,23 +204,21 @@ main {
   font-size: 20px;
   margin-top: 10px;
   margin-bottom: 15px;
-  margin-left: 30px;
 }
 
 .rate input {
   font-size: 20px;
   margin-bottom: 20px;
-  margin-left: 40px;
 }
 
 .box-comments {
-  margin-left: 30px;
   margin-top: 15px;
+  margin-bottom: 20px;
 }
 
 .comments {
-  margin-bottom: 15px;
   font-size: 20px;  
+  margin-bottom: 15px;
 }
 
 #textarea {
@@ -234,12 +235,25 @@ main {
   margin-bottom: 15px;
 }
 
+#label-infos {
+    font-size: 20px;
+}
+
+#submit-btn {
+    background-color: #2B2D42;
+    border: 3px solid #8D99AE;
+    border-radius: 8px;
+    color: #EDF2F4;
+    font-family: 'Chewy', cursive;
+    font-size: 15px;
+    padding: 10px;
+}
+
 /* Area que apresentará os dados salvos do fromulario */
 
 #box-text-form {
   width: 675px;
 }
-
 
 /* Rodape */
 
