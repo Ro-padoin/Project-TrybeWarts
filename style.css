@@ -4,7 +4,7 @@ Paleta de cores:
 - #8D99AE
 - #EDF2F4
 - #EF233C
-- ##2B2D42
+- #2B2D42
 
 font-family: 'Chewy', cursive; 
 font-family: 'Henny Penny', cursive;*/
@@ -243,7 +243,7 @@ main {
     background-color: #2B2D42;
     border: 3px solid #8D99AE;
     border-radius: 8px;
-    color: #EDF2F4;
+    color: #8D99AE;
     font-family: 'Chewy', cursive;
     font-size: 15px;
     padding: 10px;

@@ -18,13 +18,15 @@ btnSubmit.disabled = true;
 function desabilitar() {
   if (agreement.checked) {
     btnSubmit.disabled = false;
+    btnSubmit.style.color = "#FFF";
   } else {
     btnSubmit.disabled = true;
+    btnSubmit.style.color = "#8D99AE";
   }
 }
 agreement.addEventListener('click', desabilitar);
 
-// Outra forma de resolver:
+// Outra forma de resolver: com checked no html;
 // const btnEnviar = document.getElementById('submit-btn');
 // const checkbox = document.getElementById('agreement');
 // checkbox.addEventListener('change', () => {
