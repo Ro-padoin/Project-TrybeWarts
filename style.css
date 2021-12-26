@@ -6,13 +6,13 @@ Paleta de cores:
 - #EF233C
 - #2B2D42
 
-font-family: 'Chewy', cursive; 
-font-family: 'Henny Penny', cursive;*/
+font-family: 'Milonga', cursive;*/
 
 body {
   background-color: #EDF2F4 ;
   color: #2B2D42;
-  font-family: 'Chewy', cursive;
+  font-family: 'Milonga', cursive;
+  font-weight: bolder;
 }
 
 .hidden {
@@ -38,7 +38,7 @@ body {
 
 #trybewarts-header-title {
   font-size: 50px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .form {
@@ -55,7 +55,7 @@ body {
 #email {
   border: 3px solid #8D99AE;
   border-radius: 8px;
-  font-family: 'Chewy', cursive;
+  font-family: 'Milonga', cursive;
   font-size: 15px;
   margin-right: 10px;
 }
@@ -63,7 +63,7 @@ body {
 #password {
   border: 3px solid #8D99AE;
   border-radius: 8px;
-  font-family: 'Chewy', cursive;
+  font-family: 'Milonga', cursive;
   font-size: 15px;
   margin-right: 10px;  
 }
@@ -73,7 +73,7 @@ body {
   border: 3px solid #8D99AE;
   border-radius: 8px;
   color: #EDF2F4;
-  font-family: 'Chewy', cursive;
+  font-family: 'Milonga', cursive;
   font-size: 15px;
   margin-right: 10px;
   padding-left: 20px;
@@ -146,7 +146,7 @@ main {
 .identification input {
   border: 3px solid #8D99AE;
   border-radius: 8px;
-  font-family: 'Chewy', cursive;
+  font-family: 'Milonga', cursive;
   font-size: 15px;
   margin-bottom: 15px;
   margin-right: 20px;
@@ -156,7 +156,7 @@ main {
 #house {
   border: 3px solid #8D99AE;
   border-radius: 8px;
-  font-family: 'Chewy', cursive;
+  font-family: 'Milonga', cursive;
   font-size: 15px;
   padding: 5px;
   width: 200px;
@@ -225,12 +225,12 @@ main {
   border: 3px solid #8D99AE;
   width: 85%;
   border-radius: 8px;
-  font-family: 'Chewy', cursive;
+  font-family: 'Milonga', cursive;
   font-size: 15px;
 }
 
 #counter {
-  font-size: 15px;
+  font-size: 10px;
   margin-top: 5px;
   margin-bottom: 15px;
 }
@@ -244,7 +244,7 @@ main {
     border: 3px solid #8D99AE;
     border-radius: 8px;
     color: #8D99AE;
-    font-family: 'Chewy', cursive;
+    font-family: 'Milonga', cursive;
     font-size: 15px;
     padding: 10px;
 }
