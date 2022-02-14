@@ -16,3 +16,7 @@ Neste projeto, verificamos se você é capaz de:
 ## Resultado
 
 Desempenho = 100% nos requisitos totais.
+
+## Projeto Finalizado
+
+![Projeto TrybeWarts](./images/projeto_finalizado.png)
