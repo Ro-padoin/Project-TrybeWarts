@@ -1,4 +1,4 @@
-# Boas vindas ao repositório do projeto Trybewarts Wizarding School! :mage:
+# Boas vindas ao repositório do projeto Trybewarts! :mage:
 
 Projeto Bloco 6 - Modulo 1 Fundamentos do Desenvolvimento WEB - Turma 17 - Trybe.
 
